@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "firstName": "homer",
+      "lastName": "simpson",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "id": "3ad52697-6d98-4d80-8273-084de55a86c0"
+    },
+    {
+      "firstName": "marge",
+      "lastName": "simpson",
+      "email": "marge@simpson.com",
+      "password": "secret",
+      "id": "2b6f0989-7b7f-4a38-ad26-aa06b922d751"
+    },
+    {
+      "firstName": "Kamil",
+      "lastName": "Blaa",
+      "email": "keden123@hotmail.com",
+      "password": "ro13pedal",
+      "id": "3eb40f8e-f975-42e3-8b07-f672cd7923cb"
+    },
+    {
+      "firstName": "Hey",
+      "lastName": "test",
+      "email": "test@test.com",
+      "password": "test",
+      "id": "74995c96-9334-4bf7-971c-d6118000e6fa"
+    },
+    {
+      "firstName": "Mary",
+      "lastName": "Lyng",
+      "email": "mlyng@wit.ie",
+      "password": "trustno1",
+      "id": "710e3d18-e239-4139-8617-11d743442af3"
+    },
+    {
+      "firstName": "Kamil",
+      "lastName": "Lolek",
+      "email": "keden12345@hotmail.com",
+      "password": "test123",
+      "id": "64dcbb64-1959-4d43-b4f0-1cf278fe2f7d"
+    },
+    {
+      "firstName": "Mary",
+      "lastName": "Lyng",
+      "email": "mlyng",
+      "password": "trustno1",
+      "id": "d07e6894-6172-4aa4-a960-1eba82619feb"
+    },
+    {
+      "firstName": "Kamilek",
+      "lastName": "Hej",
+      "email": "keden12345@hotmail.com",
+      "password": "ro13pedal",
+      "id": "b503d708-92ca-4ccc-9f04-2bbe0a2b65c0"
+    },
+    {
+      "firstName": "Kamilek",
+      "lastName": "Hello",
+      "email": "keden1234@hotmail.com",
+      "password": "ro13pedal",
+      "id": "c816d55b-2cdc-4531-bdd8-16421a36301d"
+    }
+  ]
+}

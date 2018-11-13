@@ -1,0 +1,124 @@
+{
+  "webmarkCollection": [
+    {
+      "id": "49f664d9-a32e-444a-8d5b-d7826092d694",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "title": "Test",
+      "bookmarks": [
+        {
+          "id": "ee95673e-5b7b-4805-a003-a212dcfec5e6",
+          "title": "Hey3",
+          "url": "www.google.com",
+          "summary": "This is a secret website!",
+          "pic": "http://res.cloudinary.com/djlbd1jey/image/upload/v1525190172/xfda3gt0abp1ag1dysmo.png",
+          "value": 1
+        },
+        {
+          "id": "ce480c20-26b2-44df-8f6c-51416de5b908",
+          "title": "LongTest",
+          "url": "www.google.com",
+          "summary": "This is an awfully long text, lets see what will happen and just hope it won't overflow!",
+          "pic": "http://res.cloudinary.com/djlbd1jey/image/upload/v1525190231/t5fdztfmxneqr9wou4xx.png",
+          "value": 1
+        },
+        {
+          "id": "8e4d862f-7923-4c71-b6cb-9450ba1e71ed",
+          "title": "HeyTest",
+          "url": "www.google.com",
+          "summary": "WSDADsADsadsadsadsadsadsadsa dsadsadsadsadsadsadsa sdadsadsadsa adsad sadsadsadsa dsadsadsadsad sa dsadsadsa dsadsadsadsads adsadsadsad",
+          "pic": "http://res.cloudinary.com/djlbd1jey/image/upload/v1525269505/s8rms29jvgdcam7payeb.png",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "ac87cc0a-2777-4616-a09f-5feaadabdd13",
+      "userid": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "title": "Test3",
+      "bookmarks": [
+        {
+          "id": "0c83ce21-21ff-43bc-80c1-e866e62cb031",
+          "title": "Secret",
+          "url": "www.google.com",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "45f4fd33-2021-4615-8b4a-884f27f16007",
+      "userid": "74995c96-9334-4bf7-971c-d6118000e6fa",
+      "title": "Hey",
+      "bookmarks": []
+    },
+    {
+      "id": "ff5bf64a-2e66-4f4b-a654-41be02e9bd33",
+      "userid": "3eb40f8e-f975-42e3-8b07-f672cd7923cb",
+      "title": "HeyThis",
+      "bookmarks": [
+        {
+          "id": "36819843-929f-4145-aab7-542f48a2c37a",
+          "title": "Hello",
+          "url": "www.google.com",
+          "pic": "http://res.cloudinary.com/djlbd1jey/image/upload/v1525186596/sivrusbhxlzezi0ecavl.png",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "813e18da-6d1d-4025-b59d-28942c401964",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "title": "Test2",
+      "bookmarks": []
+    },
+    {
+      "id": "050ba6d8-7b8e-4f14-80a9-72bffb8d9cd1",
+      "userid": "64dcbb64-1959-4d43-b4f0-1cf278fe2f7d",
+      "title": "Hey",
+      "bookmarks": []
+    },
+    {
+      "id": "8d83e15a-b9d8-4209-bcd7-26d6311d4b48",
+      "userid": "d07e6894-6172-4aa4-a960-1eba82619feb",
+      "title": "Test",
+      "bookmarks": [
+        {
+          "id": "af43be9b-c36b-4d20-93e8-2c7bf71167c0",
+          "title": "Tersty",
+          "url": "www.wit.ie",
+          "summary": "",
+          "pic": "http://res.cloudinary.com/djlbd1jey/image/upload/v1525336068/ziftxe4rszwq9tngynwk.jpg",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "b1c4d40b-a675-49a8-980d-ae2b8201cfbd",
+      "userid": "710e3d18-e239-4139-8617-11d743442af3",
+      "title": "Test",
+      "bookmarks": [
+        {
+          "id": "78194b4b-ddf8-49c7-a418-d7a5a658976c",
+          "title": "Test",
+          "url": "www.rte.ie",
+          "summary": "e",
+          "pic": "http://res.cloudinary.com/djlbd1jey/image/upload/v1525358210/bcb08jmqkmefcslypqzc.png",
+          "value": 1
+        },
+        {
+          "id": "f35f195b-789e-4691-a577-471aa2a2b0cf",
+          "title": "Tester",
+          "url": "www.wit.ie",
+          "summary": "Waterford",
+          "pic": "http://res.cloudinary.com/djlbd1jey/image/upload/v1525358236/bwdr8gppdy3lxiutj1wr.jpg",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "0238de63-9125-4656-a2df-49dee189d7c7",
+      "userid": "710e3d18-e239-4139-8617-11d743442af3",
+      "title": "Help",
+      "bookmarks": []
+    }
+  ]
+}

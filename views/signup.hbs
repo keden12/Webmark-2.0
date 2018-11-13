@@ -1,0 +1,32 @@
+<div class="ui two column stackable grid container">
+    <div id="navigation" class="two wide column">
+    {{> welcomemenu id="signup"}}
+  </div>
+<div class="fourteen wide column">
+
+<form id="bg" class="ui raised blue segment form" action="/register" method="POST">
+  <a id="down" class="ui blue ribbon label"><i class="inverted user plus icon"></i>Register</a>
+  <div class="two fields">
+    <div class="field">
+      <label>First Name</label>
+      <input placeholder="First Name" type="text"  name="firstName" autofocus required>
+    </div>
+    <div class="field">
+      <label>Last Name</label>
+      <input placeholder="Last Name" type="text"  name="lastName" required>
+    </div>
+  </div>
+  <div class="field">
+    <label>Email</label>
+    <input placeholder="Email" type="text" name="email" required>
+  </div>
+  <div class="field">
+    <label>Password</label>
+    <input type="password" name="password" required>
+  </div>
+</form>
+   <div id="buttonalign" class="ui center aligned grid">
+  <button class="ui blue submit button" form="bg">Submit</button>
+  </div>
+</div>
+</div>
