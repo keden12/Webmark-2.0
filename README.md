@@ -1,6 +1,6 @@
-Welcome to the GLitch Template 1
+Webmark App 2.0
 ==============================
 
-A starter project for learning Glitch.
-
-This is an Express.js project, designed to work well with the Glitch development environment. It includes basic express setup, templating, routing and session support.
+This is an extended Webmark App.
+It includes features such as Login/Register, Card Layout, Importing Images, Pulling data from json format etc.
+This app can be seen live here - https://webmarkapp-assignment2.glitch.me/
