@@ -1,0 +1,20 @@
+<div class="ui two column stackable grid container">
+  <div id="navigation" class="two wide column">
+    {{> welcomemenu id='login' }}
+  </div>
+<div class="fourteen wide column">
+
+<form id="bg" class="ui raised red segment form" action="/authenticate" method="POST">
+  <a id="down" class="ui red ribbon label"><i class="lock icon"></i>Log-in</a>
+  <div class="field">
+    <label>Email</label> <input placeholder="Email" name="email" autofocus required>
+  </div>
+  <div class="field">
+    <label>Password</label> <input type="password"  name="password" required >
+  </div>
+</form>
+   <div id="buttonalign" class="ui center aligned grid">
+  <button class="ui red submit button" form="bg">Log-in</button>
+  </div>
+</div>
+</div>

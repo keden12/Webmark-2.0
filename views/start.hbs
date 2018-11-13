@@ -1,0 +1,114 @@
+<div class="ui two column stackable grid container">
+        <div id="navigation" class="two wide column">
+       {{>menu}}
+       </div>
+    <div class="fourteen wide column">
+<section id="bg" class="ui yellow raised segment">
+  <a class="ui yellow ribbon label"><i class="chart bar icon"></i>Statistics</a>
+<h1 class="ui centered header">
+    Welcome back {{fullname}}!
+  </h1>
+<br>
+  <br>
+ <div class="ui horizontal divider">
+    Your Statistics
+  </div>
+  <div class="ui three statistics">
+
+  <div class="red statistic">
+    <div class="value">
+      {{alllists}}
+    </div>
+    <div class="label">
+      Total Collections
+    </div>
+  </div>
+     <div class="yellow statistic">
+    <div class="value">
+      {{allbookmarks}}
+    </div>
+    <div class="label">
+      Total Bookmarks
+    </div>
+  </div>
+        
+    <div class="orange statistic">
+    <div class="value">
+      {{avgbookmarks}}
+    </div>
+    <div class="label">
+      Avg per collection
+    </div>
+  </div>
+    </div>
+    
+  <div id="top" class="ui two statistics">
+    <div class="green statistic">
+    <div class="value">
+      {{largest}}
+    </div>
+    <div class="label">
+      Largest Collection
+    </div>
+  </div>
+
+  <div class="grey statistic">
+    <div class="value">
+      {{smallest}}
+    </div>
+    <div class="label">
+      Smallest Collection
+    </div>
+  </div>
+  </div>
+    
+  
+   <div class="ui horizontal divider">
+    Overall Statistics
+  </div>
+  <div class="ui two statistics">
+     
+        <div class="yellow statistic">
+    <div class="value">
+      {{totalbookmarks}}
+    </div>
+    <div class="label">
+      Total Bookmarks
+    </div>
+  </div>
+     
+     
+      <div class="orange statistic">
+    <div class="value">
+      {{avgperuser}}
+    </div>
+    <div class="label">
+      Avg Bookmarks Per User
+    </div>
+  </div>
+  </div>
+  <div id="top" class="ui two statistics">
+  <div class="green statistic">
+    <div class="value">
+      {{largestuser}}
+    </div>
+    <div class="label">
+     User with Largest Collection
+    </div>
+  </div>
+       <div class="grey statistic">
+    <div class="value">
+      {{smallestuser}}
+    </div>
+    <div class="label">
+     User with smallest Collection
+    </div>
+  </div>
+
+  </div>
+
+  
+  
+</section>
+        </div>
+  </div>

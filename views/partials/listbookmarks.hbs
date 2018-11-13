@@ -1,0 +1,19 @@
+<div id="bg" class="ui link cards">
+{{#each bookmark.bookmarks}}
+   <div class="card">
+    <div class="image">
+       <img src="{{pic}}">
+    </div>
+     <div class="content">
+       <a  href="http://{{url}}" target="_blank"> <div class="header"><h1 class="ui centered header">
+         {{title}}</h1></div></a>
+     </div>
+       <div class="extra content">
+      <span class="right floated">
+        <a href="/bookmark/{{../bookmark.id}}/deletebookmark/{{id}}" > <i class="red large trash icon"></i> </a>
+      </span>
+        {{summary}}
+     </div>
+  </div>
+   {{/each}}
+</div>

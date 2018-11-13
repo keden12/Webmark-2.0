@@ -1,0 +1,35 @@
+<div id="show">
+<form id="collectionForm" class="ui raised segment form" action="/webmark/addcollection" method="POST" enctype="multipart/form-data">
+  <div class="field">
+    <label>Title</label>
+    <input placeholder="Title" type="text" name="title" autofocus required>
+  </div>
+</form>
+  <div id="buttonalign" class="ui center aligned grid">
+  <button class="ui red submit button" form="collectionForm">Add Collection</button>
+  </div>
+</div>
+
+
+<div id="buttondown" class="ui center aligned grid">
+<div id="button" class="ui animated red button" tabindex="0">
+  <div class="visible content">New</div>
+  <div class="hidden content">
+    <i class="plus icon"></i>
+</div>
+  </div>
+</div>
+
+
+
+
+<script>
+ $("#show").hide();
+  
+  $("#button").click(function() {
+  $("#show").show(); 
+  $("#button").hide();    
+});
+
+
+</script>

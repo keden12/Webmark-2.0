@@ -1,0 +1,49 @@
+
+
+<div id="show">
+<form id="myForm" class="ui raised segment form" action="/webmark/{{bookmark.id}}/addbookmark" method="POST" enctype="multipart/form-data">
+    <div class="field">
+      <label>Title</label>
+      <input placeholder="Title" type="text" name="title" autofocus required>
+    </div>
+<div id="down" class="ui labeled input">
+  <div class="ui label">
+    http://
+  </div>
+  <input type="text" placeholder="URL" name="url" required>
+</div>
+    <div class="field">
+    <label>Brief Summary</label>
+    <textarea rows="2" name="summary"></textarea>
+   <div class="field">
+    <label>Picture</label>
+  <input type="file" name="pic" required>  </input>
+  </div>
+</form>
+<div id="buttonalign" class="ui center aligned grid">
+<button class="ui red submit button" form="myForm">Add Bookmark</button>
+  </div>
+</div>
+</div>
+
+
+<div id="buttondown" class="ui center aligned grid">
+<div id="button" class="ui animated red button" tabindex="0">
+  <div class="visible content">New</div>
+  <div class="hidden content">
+    <i class="plus icon"></i>
+</div>
+  </div>
+</div>
+
+
+<script>
+ $("#show").hide();
+  
+  $("#button").click(function() {
+  $("#show").show();
+  $("#button").hide();    
+});
+
+
+</script>

@@ -1,0 +1,132 @@
+body{
+
+  
+  
+}
+
+
+#bg{
+  
+  margin-top:1%;
+}
+
+#load{
+  
+  margin-top:1%;
+}
+
+#about{
+  
+  margin-top:1%;
+}
+
+#menuhome{
+  background-color:#ffc700;
+  color:white;
+  
+}
+
+#menubookmarks{
+  background-color:#e20404;
+  color:white;
+  
+}
+
+#navigation{
+  margin-top:1%;
+}
+
+
+#menuabout{
+  background-color:#427ace;
+  color:white;
+}
+#imgstyle{
+  margin-bottom:100px;
+  
+}
+
+#bookmark{
+  margin-top:1%;
+}
+
+.sizer{
+  font-size:20px;
+}
+
+#mobile{
+  margin-left:0.5%;
+  margin-top:1%;
+}
+
+#buttondown{
+  
+  margin-top:10px;
+  
+}
+
+#buttonalign{
+  
+  margin-top:5px;
+  margin-bottom:5px;
+  
+}
+#menulogout{
+   background: rgba(200, 0, 0, 0.7);
+  color:white;
+  width:100px;
+    border-top-left-radius: 0.285714rem;
+    border-top-right-radius: 0.285714rem;
+  
+}
+
+#signup{
+
+  color:white;
+  background-color:#427ace;
+
+  
+}
+
+
+#down{
+  
+  margin-bottom:10px;
+  
+}
+
+#login{
+
+  color:white;
+   background-color:#e20404;
+
+  
+}
+
+.textup{
+  
+  font-size:15px;
+  
+}
+
+#collectionForm{
+  
+  margin-top:10px;
+  
+  
+}
+
+
+#top{
+  
+  margin-top:20px;
+  
+}
+
+#buttoncomment{
+  margin-top:10px;
+  margin-bottom:10px;
+  
+  
+  
+}

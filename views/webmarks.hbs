@@ -1,0 +1,49 @@
+<div class="ui two column stackable grid container">
+        <div id="navigation" class="two wide column">
+       {{>menu}}
+       </div>
+    <div class="fourteen wide column">
+<div id="load" class="ui loading segment">
+
+{{#if webmark}} 
+  {{#each webmark}}
+  <div class="ui raised red segment">
+    <a id="bookmarkicons" class="ui red ribbon label"><i class="bookmark icon"></i>Collection</a>
+    
+    <span class="sizer"> {{title}}</span> 
+        <h3 id="update"> <i class="large bookmark icon"></i> {{calcBookmarks bookmarks}}</h3>
+    <a href="/webmark/{{id}}/deletecollection/" class="ui red icon button"> <i class="inverted trash large icon"></i> </a>
+
+    <a href="/bookmark/{{id}}" class="ui red icon button"> <i class="inverted angle double right large icon"></i> </a>
+
+      </span>
+    </div>
+      {{/each}}
+  {{else}}
+  <div class="ui raised red segment">
+  <a id="bookmarkicons" class="ui red ribbon label"><i class="bookmark icon"></i>Starter</a>
+  <h1 class="ui centered header">
+    Oops! Seems like you have no collections {{fullname}}
+  </h1>
+  <h3 class="ui centered header">
+    You need to add some collections for your bookmarks! Click on the "New" button below.
+    </h3>
+    <img class="ui centered medium image" src="https://cdn.glitch.com/64252523-ca5d-4434-8816-acc8c38bf69e%2Fdribble_1x.jpg?1524232877868">
+  </div>
+  {{/if}}
+  
+  {{> addwebmark}}
+  </div>
+</div>
+</div>
+
+
+
+<script>
+   setTimeout(
+    function() {
+    $("#load").removeClass("ui loading segment");
+    }, 1000);
+ 
+  
+  </script>

@@ -1,0 +1,63 @@
+{
+  "pictures": [
+    {
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "photos": [
+        {
+          "img": "http://res.cloudinary.com/djlbd1jey/image/upload/v1524407603/su2ip9gjqtwdddjp1qa3.png",
+          "title": "dsadsadsa"
+        },
+        {
+          "img": "http://res.cloudinary.com/djlbd1jey/image/upload/v1524421024/bwd5mbfrew1ktwqinccz.png",
+          "title": "Testfddadsa"
+        }
+      ]
+    },
+    {
+      "userid": "710e3d18-e239-4139-8617-11d743442af3",
+      "photos": []
+    },
+    {
+      "collectionId": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "photos": []
+    },
+    {
+      "collectionId": {
+        "firstName": "homer",
+        "lastName": "simpson",
+        "email": "homer@simpson.com",
+        "password": "secret",
+        "id": "3ad52697-6d98-4d80-8273-084de55a86c0"
+      },
+      "photos": []
+    },
+    {
+      "collectionId": "710e3d18-e239-4139-8617-11d743442af3",
+      "photos": []
+    },
+    {
+      "collectionId": {
+        "firstName": "Mary",
+        "lastName": "Lyng",
+        "email": "mlyng@wit.ie",
+        "password": "trustno1",
+        "id": "710e3d18-e239-4139-8617-11d743442af3"
+      },
+      "photos": []
+    },
+    {
+      "collectionId": "3eb40f8e-f975-42e3-8b07-f672cd7923cb",
+      "photos": []
+    },
+    {
+      "collectionId": {
+        "firstName": "Kamil",
+        "lastName": "Blaa",
+        "email": "keden123@hotmail.com",
+        "password": "ro13pedal",
+        "id": "3eb40f8e-f975-42e3-8b07-f672cd7923cb"
+      },
+      "photos": []
+    }
+  ]
+}

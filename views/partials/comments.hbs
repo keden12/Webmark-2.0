@@ -1,0 +1,24 @@
+<section class="ui raised stackable segment">
+  <div class="ui horizontal divider">
+    Leave a Comment
+  </div>
+
+  <form  action="/about" method="POST">
+    <div class="ui mini form item">
+      <div class="field"><textarea rows="2" name="comment" placeholder="Your Comment..."></textarea></div>
+    </div>
+    <div id="buttoncomment" class="ui center aligned grid">
+    <div class="ui item">
+      <button class="ui blue submit button"><i class="envelope outline icon"></i> Submit</button>
+    </div>
+    </div>
+  </form>
+
+  
+  {{#each details}}
+    <div class="ui segment">
+      <p><b>Name</b>: {{name}}</p>
+      <p><b>Comment</b>: {{comment}}</p>
+    </div>
+  {{/each}}
+</section>

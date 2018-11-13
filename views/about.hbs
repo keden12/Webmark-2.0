@@ -1,0 +1,54 @@
+<div class="ui two column stackable grid container">
+        <div id="navigation" class="two wide column">
+       {{>menu}}
+       </div>
+    <div class="fourteen wide column">
+<section id="about" class="ui blue raised segment">
+  <a class="ui blue ribbon label"><i class="info circle icon"></i>Info</a>
+  <h1 class="ui centered header">
+    Webmark Co.
+  </h1>
+  
+  <h4 class="ui centered header">
+      We are a software company located in Waterford!
+  </h4>
+   <h5 class="ui centered header">
+      For quotes and more information contact us!
+  </h5>
+  <h5 class="ui centered header">
+  <div class="ui horizontal list">
+    <div class="item"><i class="envelope blue icon"></i> keden12345@hotmail.com</div>
+    <div class="item"><i class="twitter blue icon"></i>  twitter.com/webmark</div>
+    <div class="item"><i class="facebook blue icon"></i>  facebook.com/webmark</div>
+
+  </div>
+    </h5>
+  
+  <div id="map" style="width:100%;height:500px"></div>
+  <br>
+  <br>
+</section>
+      {{> comments}}
+  </div>
+</div>
+
+
+<script>
+function myMap() {
+  var mapCanvas = document.getElementById("map");
+  var myCenter = new google.maps.LatLng(52.260166,-7.110970); 
+  var mapOptions = {center: myCenter, zoom: 12,panControl: false,
+    zoomControl: false,
+    mapTypeControl: false,
+    streetViewControl: false,
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    scrollwheel: false};
+  var map = new google.maps.Map(mapCanvas,mapOptions);
+  var marker = new google.maps.Marker({
+    position: myCenter,
+    icon: "https://cdn.glitch.com/fd66c5f8-a934-4e76-8ef4-a5bdc7faaec8%2Fpointer.png?1520798426694"
+  });
+  marker.setMap(map);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsXUGTFS09pLVdsYEE9YrO2y4IAncAO2U&callback=myMap"></script>
